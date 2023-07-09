@@ -1,0 +1,9 @@
+# define two sets
+set_A = {1, 2, 3, 4, 5}
+set_B = {4, 5, 6, 7, 8}
+
+# create a set of elements present in set A or set B, but not common to both sets
+set_C = set_A.symmetric_difference(set_B)
+
+# print the resulting set
+print(set_C)

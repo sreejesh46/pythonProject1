@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../xampp/htdocs/new"
+		},
+		{
+			"path": "../../../../xampp/htdocs/REMASTER"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "REMASTER"
+	}
+}

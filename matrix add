@@ -1,0 +1,11 @@
+# sample matrices to add
+matrix1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+matrix2 = [[9, 8, 7], [6, 5, 4], [3, 2, 1]]
+
+# using nested list comprehension to add the corresponding elements of the two matrices
+result = [[matrix1[i][j] + matrix2[i][j] for j in range(len(matrix1[0]))] for i in range(len(matrix1))]
+
+# printing the result matrix
+print("Result matrix after adding the two matrices:")
+for row in result:
+    print(row)
